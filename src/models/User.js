@@ -30,7 +30,7 @@ const User = sequelize.define("user", {
     },
 });
 
-// Después de haber definido el modelo y configurado la conexión
+
 
 User.sync({ alter: true })
     .then(() => {
